@@ -1,20 +1,28 @@
-helloworld-python
+#helloworld-python
+
 a python hello world app using Tornado.
 
-Deployment
-Local
+#Deployment
+
+#Local
 
 $ pip install -r requirements.txt
-$ python app.py
-Deis
+
+$ python index.py
+
+#Deis
 
 $ deis create
+
 $ git push deis master
-Dokku
+
+#Dokku
 
 $ git remote add dokku git@domain.com:helloworld-python
+
 $ git push dokku master
-Heroku
+
+#Heroku
 
 $ heroku create
 $ git push heroku master
